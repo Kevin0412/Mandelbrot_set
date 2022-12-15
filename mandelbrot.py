@@ -37,6 +37,7 @@ if __name__=='__main__':
 
     def enlarge(event,x,y,flags,param):
         global n,c
+        print('\r'+str(n)+','+str(c+((x-127.5)+(127.5-y)*1j)/64/2**n),end='\t')
         if event==cv2.EVENT_LBUTTONDBLCLK:
             c+=((x-127.5)+(127.5-y)*1j)/64/2**n
             n+=1
