@@ -12,12 +12,14 @@ def getpng(n,c,name):
         try:
             print('Running...')
             os.system('Mandelbrot_python '+str(n)+' '+str(c.real)+' '+str(c.imag)+' '+name)
+            os.system('./Mandelbrot_python.out '+str(n)+' '+str(c.real)+' '+str(c.imag)+' '+name)
             img=cv2.imread(name)
             cv2.imwrite(name,img)
             return img
         except:
-            print('No exe!\nCompiling...')
+            print('No .exe or .out!\nCompiling...')
             os.system('gcc -lm Mandelbrot_python.c -o Mandelbrot_python.exe')
+            os.system('gcc -lm Mandelbrot_python.c -o Mandelbrot_python.out')
             return getpng(n,c,name)
 
 if __name__=='__main__':
