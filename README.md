@@ -1,7 +1,6 @@
-# Mandelbrot_set
+# Mandelbrot_set 曼德博集合
 Use python openCV and C svpng to show Mandelbrot set.
 
-# 曼德博集合
 使用python openCV和C svpng显示曼德博集合。
 
 # Installation 安装方法
