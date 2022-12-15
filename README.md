@@ -32,3 +32,5 @@ It can only be run on windows now.
 ![4_(-0 5654296875+0 6396484375j)](https://user-images.githubusercontent.com/45508696/207788071-e1bc4581-84fa-40d4-bb89-922396b9b0be.png)
 ![6_(-0 561767578125+0 642822265625j)](https://user-images.githubusercontent.com/45508696/207788105-a631bb3f-6125-4aa8-a65c-620510b04fa3.png)
 ![8_(-0 56219482421875+0 64276123046875j)](https://user-images.githubusercontent.com/45508696/207788132-ff255d13-5021-4ac7-a29f-345549534969.png)
+![10_(-0 5621795654296875+0 6429290771484375j)](https://user-images.githubusercontent.com/45508696/207788218-8d33caad-6826-44e4-b09a-f14f473615c0.png)
+
