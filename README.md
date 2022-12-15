@@ -1,11 +1,16 @@
 # Mandelbrot_set
 Use python openCV and C svpng to show Mandelbrot set.
 
+
 # Installation
 git clone https://github.com/Kevin0412/Mandelbrot_set.git
+
 cd Mandelbrot_set
+
 git clone https://github.com/miloyip/svpng.git
+
 pip install opencv-python
+
 
 # Usage
 python mandelbrot.py
