@@ -19,12 +19,10 @@ python mandelbrot.py
 Double click the window and the image will be enlarged.
 Press esc to exit.
 Your runs will be seen in runs dir.
-It can only be run on windows now.
 
 双击窗口以放大图像。
 按esc退出。
 运行结果保存于runs文件夹。
-现在仅支持在windows系统上运行。
 
 ![0_0j](https://user-images.githubusercontent.com/45508696/207787809-d1ef3cc8-73a4-4895-9aaf-9d49ed8b0695.png)
 ![2_(-0 54296875+0 63671875j)](https://user-images.githubusercontent.com/45508696/207788030-20efe941-cffa-46ca-8946-8ee8a243f8eb.png)
