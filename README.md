@@ -28,3 +28,7 @@ It can only be run on windows now.
 现在仅支持在windows系统上运行。
 
 ![0_0j](https://user-images.githubusercontent.com/45508696/207787809-d1ef3cc8-73a4-4895-9aaf-9d49ed8b0695.png)
+![2_(-0 54296875+0 63671875j)](https://user-images.githubusercontent.com/45508696/207788030-20efe941-cffa-46ca-8946-8ee8a243f8eb.png)
+![4_(-0 5654296875+0 6396484375j)](https://user-images.githubusercontent.com/45508696/207788071-e1bc4581-84fa-40d4-bb89-922396b9b0be.png)
+![6_(-0 561767578125+0 642822265625j)](https://user-images.githubusercontent.com/45508696/207788105-a631bb3f-6125-4aa8-a65c-620510b04fa3.png)
+![8_(-0 56219482421875+0 64276123046875j)](https://user-images.githubusercontent.com/45508696/207788132-ff255d13-5021-4ac7-a29f-345549534969.png)
