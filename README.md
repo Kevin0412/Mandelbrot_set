@@ -25,9 +25,8 @@ Your runs will be seen in runs dir.
 运行结果保存于runs文件夹。
 
 ![0_0j](https://user-images.githubusercontent.com/45508696/207787809-d1ef3cc8-73a4-4895-9aaf-9d49ed8b0695.png)
-![2_(-0 54296875+0 63671875j)](https://user-images.githubusercontent.com/45508696/207788030-20efe941-cffa-46ca-8946-8ee8a243f8eb.png)
-![4_(-0 5654296875+0 6396484375j)](https://user-images.githubusercontent.com/45508696/207788071-e1bc4581-84fa-40d4-bb89-922396b9b0be.png)
-![6_(-0 561767578125+0 642822265625j)](https://user-images.githubusercontent.com/45508696/207788105-a631bb3f-6125-4aa8-a65c-620510b04fa3.png)
-![8_(-0 56219482421875+0 64276123046875j)](https://user-images.githubusercontent.com/45508696/207788132-ff255d13-5021-4ac7-a29f-345549534969.png)
-![10_(-0 5621795654296875+0 6429290771484375j)](https://user-images.githubusercontent.com/45508696/207788218-8d33caad-6826-44e4-b09a-f14f473615c0.png)
-
+![2_(0 17578125+0 60546875j)](https://user-images.githubusercontent.com/45508696/207806901-ecd696fc-562b-4ca7-8c28-e39251384b0b.png)
+![4_(0 1240234375+0 6142578125j)](https://user-images.githubusercontent.com/45508696/207806924-8e8fb2ab-2b7d-47bf-b545-a0d6d1aeab92.png)
+![6_(0 107177734375+0 637451171875j)](https://user-images.githubusercontent.com/45508696/207806945-70ae7dfb-fbc8-408e-b801-11b267574554.png)
+![8_(0 10675048828125+0 63714599609375j)](https://user-images.githubusercontent.com/45508696/207806964-460e871f-17d5-4d11-817f-f4f77434b5f9.png)
+![10_(0 1068878173828125+0 6374053955078125j)](https://user-images.githubusercontent.com/45508696/207806998-ef219110-4070-4c25-ba29-19aa1c51f7fa.png)
