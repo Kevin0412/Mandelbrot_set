@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<complex.h>
 #include<math.h>
-#include"svpng/svpng.inc"
+#include"svpng.inc"
 #include<time.h>
 
 int color_r(double n){
@@ -90,6 +90,6 @@ int main(int argc, char *argv[]){
     }
     test_rgb(n,real+imag*I,filename);
     clock_t endtime=clock();
-    printf("\nRunning Time:%fs\n", ((double)(endtime-begintime))/CLOCKS_PER_SEC);
+    printf("Running Time:%fs\n\n", ((double)(endtime-begintime))/CLOCKS_PER_SEC);
     return(0);
 }
