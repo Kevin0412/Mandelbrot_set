@@ -10,6 +10,8 @@ cd Mandelbrot_set
 
 git clone https://github.com/miloyip/svpng.git
 
+cp svpng/svpng.inc .    # 将svpng文件夹中的svpng.inc复制到当前目录下
+
 pip install opencv-python
 
 
@@ -22,7 +24,7 @@ Your runs will be seen in runs dir.
 
 双击窗口以放大图像。
 按esc退出。
-运行结果保存于runs文件夹。
+运行结果保存于images文件夹。
 
 ![0_0j](https://user-images.githubusercontent.com/45508696/207787809-d1ef3cc8-73a4-4895-9aaf-9d49ed8b0695.png)
 ![2_(0 17578125+0 60546875j)](https://user-images.githubusercontent.com/45508696/207806901-ecd696fc-562b-4ca7-8c28-e39251384b0b.png)
