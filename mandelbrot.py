@@ -43,7 +43,7 @@ def getpng(n,c,name):
             os.system(cmd)
             if not (os.path.exists(os.path.join(workDir, 'Mandelbrot_python.out')) or os.path.exists(os.path.join(workDir, "Mandelbrot_python.exe"))):
                 raise "Failed to compile\n编译失败"
-            return getpng(n ,c, name, True)
+            return getpng(n ,c, name)
 
 
 
