@@ -19,11 +19,15 @@ pip install opencv-python
 python mandelbrot.py
 
 Double click the window and the image will be enlarged.
+
 Press esc to exit.
+
 Your runs will be seen in runs dir.
 
 双击窗口以放大图像。
+
 按esc退出。
+
 运行结果保存于images文件夹。
 
 ![0_0j](https://user-images.githubusercontent.com/45508696/207787809-d1ef3cc8-73a4-4895-9aaf-9d49ed8b0695.png)
@@ -37,14 +41,23 @@ Your runs will be seen in runs dir.
 1. 更改了文件结构
 
 . (work dir)
+
 ├── images
+
 │   ├── 0_0j.png
+
 │   ├── 10_(-0.1041107177734375+0.8805694580078125j).png
+
 │   ├── ...
+
 ├── mandelbrot.py
+
 ├── Mandelbrot_python.c
+
 ├── Mandelbrot_python.out (or Mandelbrot_python.exe)
+
 ├── README.md
+
 └── svpng.inc
 
 这样相同参数的图片就不会被生成两次
@@ -52,4 +65,5 @@ Your runs will be seen in runs dir.
 2. 多平台支持
 
 支持Windows和Linux平台
+
 在Ubuntu20.04上测试
