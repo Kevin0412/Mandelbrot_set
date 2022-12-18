@@ -4,7 +4,7 @@ Use python openCV and C svpng to show Mandelbrot set.
 使用python openCV和C svpng显示曼德博集合。
 
 # Installation 安装方法
-git clone https://github.com/Kevin0412/Mandelbrot_set.git
+git clone https://github.com/miaooo0000OOOO/Mandelbrot_set
 
 cd Mandelbrot_set
 
@@ -32,3 +32,24 @@ Your runs will be seen in runs dir.
 ![6_(0 107177734375+0 637451171875j)](https://user-images.githubusercontent.com/45508696/207806945-70ae7dfb-fbc8-408e-b801-11b267574554.png)
 ![8_(0 10675048828125+0 63714599609375j)](https://user-images.githubusercontent.com/45508696/207806964-460e871f-17d5-4d11-817f-f4f77434b5f9.png)
 ![10_(0 1068878173828125+0 6374053955078125j)](https://user-images.githubusercontent.com/45508696/207806998-ef219110-4070-4c25-ba29-19aa1c51f7fa.png)
+
+# changeLog 更改日志
+1. 更改了文件结构
+
+. (work dir)
+├── images
+│   ├── 0_0j.png
+│   ├── 10_(-0.1041107177734375+0.8805694580078125j).png
+│   ├── ...
+├── mandelbrot.py
+├── Mandelbrot_python.c
+├── Mandelbrot_python.out (or Mandelbrot_python.exe)
+├── README.md
+└── svpng.inc
+
+这样相同参数的图片就不会被生成两次
+
+2. 多平台支持
+
+支持Windows和Linux平台
+在Ubuntu20.04上测试
