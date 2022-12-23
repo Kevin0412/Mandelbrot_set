@@ -12,14 +12,14 @@ def getpng(n,c,name):
         try:
             print('Running...')
             os.system('Mandelbrot_python '+str(n)+' '+str(c.real)+' '+str(c.imag)+' '+name)
-            os.system('./Mandelbrot_python.out '+str(n)+' '+str(c.real)+' '+str(c.imag)+' '+name)
+            #os.system('./Mandelbrot_python.out '+str(n)+' '+str(c.real)+' '+str(c.imag)+' '+name)
             img=cv2.imread(name)
             cv2.imwrite(name,img)
             return img
         except:
             print('No .exe or .out!\nCompiling...')
             os.system('gcc -lm Mandelbrot_python.c -o Mandelbrot_python.exe')
-            os.system('gcc -lm Mandelbrot_python.c -o Mandelbrot_python.out')
+            #os.system('gcc -lm Mandelbrot_python.c -o Mandelbrot_python.out')
             return getpng(n,c,name)
 
 if __name__=='__main__':
@@ -49,7 +49,7 @@ if __name__=='__main__':
     while(True):
         img=getpng(n,c,dirname+str(n)+'_'+str(c)+'.png')
         cv2.imshow('image',img)
-        if cv2.waitKey(100)&0xFF==27:
+        if cv2.waitKey(100)&0xFF==27 or n>48:
             break
 
     cv2.destroyAllWindows()
