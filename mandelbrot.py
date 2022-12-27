@@ -3,10 +3,13 @@ import cv2
 import numpy as np
 import time
 
-def getpng(n,c,name):
+def getpng(n,c,name,regenerate=False):
     try:
-        img=cv2.imread(name)
-        cv2.imwrite(name,img)
+        if regenerate:
+            raise Exception
+        else:
+            img=cv2.imread(name)
+            cv2.imwrite(name,img)
         return img
     except:
         try:
@@ -33,7 +36,9 @@ if __name__=='__main__':
     os.mkdir(dirname)
 
     n=0
-    c=0.0+0.0j
+    #c=-1.2228637871299002+0.31688226388713636j
+    #c=-1.2603629819786142+0.3553264757232396j
+    c=0+0j
 
     def enlarge(event,x,y,flags,param):
         global n,c
@@ -51,5 +56,6 @@ if __name__=='__main__':
         cv2.imshow('image',img)
         if cv2.waitKey(100)&0xFF==27 or n>48:
             break
+        #n+=1
 
     cv2.destroyAllWindows()
