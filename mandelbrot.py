@@ -59,7 +59,7 @@ if __name__=='__main__':
     #c=-1.2228637871299002+0.31688226388713636j
     #c=-1.2603629819786142+0.3553264757232396j
     c=0+0j
-    variety=2
+    variety=0
 
     def enlarge(event,x,y,flags,param):
         global n,c
